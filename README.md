@@ -1,4 +1,20 @@
+![Azoria Logo](https://azoria.au/business_assets/logos/Logo-Dark-Blue-Outline.png)
+
+**Azoria** provide's custom software and development solutions to cryptocurrency projects and alike. Including but not limited to:
+
+- Frontend Web Design
+- Custom Bot Setup's
+- Web & Email Hosting.
+- Technical Advice.
+- Hosting Setup.
+
+*Flick us an [email](mailto://contact@azoria.au) today for more info or with any questions you may have!*
+
+---
+
 # Metis Ninja NFT
+
+Contracts Written in conjuction with NFT Apparel Team
 
 Pricing has already been updated and reflected in the contract
 1 - 2 Ninjas = 2.5 Metis each
@@ -6,13 +22,7 @@ Pricing has already been updated and reflected in the contract
 6 - 10 Ninjas = 1.7 Metis each
 10+ Ninjas = 1.5 Metis each
 
-Tokenomics are here:
-10% goes to buy back and hold $PRO Token. Once the contract balance gets to a certain level it will use 10% of the funds to buy $PRO (what is $PRO? Learn more) ** Done **
+Distribution of sale funds are:
+10% goes to buy back and hold PRO Token. (what is $PRO? Learn more) ** Done **
 65% goes to the BlockChat Treasury ** Done **
 25% goes to the creator of Metis Ninjas (Stellie) ** Done **
-
-Royalties:
-2% buy back to treasury as (USDC, METIS, ETH, PEAK) ** Needs to be added **
-2% goes to buy back $PRO ** Needs to be added **
-2% back to creator ** Needs to be added - there is a royalty wallet added here but it needs to be updated to reflect the new percentages **
-Need to add Airdrop feature as well - important!
