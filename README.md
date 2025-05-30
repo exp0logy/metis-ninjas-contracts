@@ -1,14 +1,38 @@
-![Azoria Logo](https://azoria.au/assets/logos/Logo-Dark-Blue-Outline.png)
+# Metis Ninjas Smart Contract Overview
 
-**Azoria** provide's custom software and development solutions to cryptocurrency projects and alike. Including but not limited to:
+This Solidity project powers the Metis Ninjas NFT collection, deployed on the Metis blockchain. The contract integrates royalty standards, access control, and DEX swapping for buybacks, and features dynamic pricing for public sales.
 
-- Frontend Web Design
-- Custom Bot Setup's
-- Web & Email Hosting.
-- Technical Advice.
-- Hosting Setup.
+## Main Contract
 
-*Flick us an [email](mailto://contact@azoria.au) today for more info or with any questions you may have!*
+### `MetisNinjas.sol`
+- ERC721 NFT with ERC2981 royalties.
+- Uses OpenZeppelin standards and roles for ownership/minter control.
+- Mints a specified count on deployment to a preset wallet.
+- Public minting via `purchase()` with tiered pricing (1.5–2.5 METIS).
+- Includes `airdropNFT()` for admin airdrops.
+- Handles revenue splits (65% treasury, 25% artist, 10% buyback).
+- Swaps leftover METIS to `proToken` using NetSwap.
+
+## Interfaces
+
+### `INetswapRouter02.sol`
+- Interface for NetSwap’s `swapExactMetisForTokens` used in token buyback logic.
+
+## Scripts
+
+### `scripts/deploy.ts`
+- Handles deployment of the MetisNinjas contract.
+
+### `test/index.ts`
+- Tests for contract behavior and minting logic.
+
+## Dependencies
+
+From `package.json` and Solidity imports:
+- `@openzeppelin/contracts`
+- `hardhat`, `ethers`, `typescript`
+- `ERC721`, `ERC2981`, `AccessControl`, `ReentrancyGuard`
+- `SafeMath`, `Address`, `Strings`
 
 ---
 
